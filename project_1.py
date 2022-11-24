@@ -305,7 +305,7 @@ val_eval = model.evaluate(val_ds, batch_size=batch_size)
 
 test_eval = model.evaluate(test_ds, batch_size=batch_size)
 
-"""***Congratulations!***
+r"""***Congratulations!***
 
 You have trained a first model for multiclass classification on ```EUROSAT``` and that is an important milestone!
 
