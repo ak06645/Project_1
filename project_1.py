@@ -302,10 +302,8 @@ During training, you could already watch the values of ```loss```, ```sparse_cat
 
 # your code
 val_eval = model.evaluate(val_ds, batch_size=batch_size)
-val_eval
 
 test_eval = model.evaluate(test_ds, batch_size=batch_size)
-test_eval
 
 """***Congratulations!***
 
